@@ -1,0 +1,57 @@
+
+.content{
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   
+}
+.firstcontent{
+    background-color: rgb(219, 129, 119);
+    height: 55px;
+    margin-bottom: 40px;
+    
+}
+.secondcontent{
+    background-color: rgb(219, 129, 119);
+    height: 55px;
+}
+.SecondContainer{
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+}
+.SecondContainer button{
+ width: 30%;
+}
+.button{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.button p{
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.buttondetail{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: row;
+    width: 70%;
+}
+.buttondetail a{
+    padding: 8px 40px;
+    border: none;
+    margin-top: 20px;
+    background-color: rgb(214, 210, 210);
+    border-radius: 5px;
+    font-size: 18px;
+    margin-right: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}

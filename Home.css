@@ -1,0 +1,85 @@
+.maincontainer{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    margin: 10px 20px;
+}
+.firstSubContainer{
+    border-right: 1px solid black; 
+    width: 40%;
+    height: 85vh;
+    margin-top: 10px;
+   
+}
+.firstSubContainer p{
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    justify-content: left;
+    text-align: start;
+    margin-left: 10px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.details input{
+    background-color: rgb(226, 220, 220);
+    padding: 20px 30px;
+    margin: 10px;
+    border: none;
+    width: 50%;
+}
+.details ::placeholder{
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    letter-spacing: 0.5px;
+}
+.details button{
+    background-color: rgb(220, 89, 89);
+    margin: 10px;
+    padding: 16px 20px;
+    width: 40%;
+    border: none;
+    font-size: 16px;
+    color: black;
+    letter-spacing: 0.5px;
+
+}
+.detailcontainer{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.secondSubContainer{
+    display: flex;
+    /* justify-content: start; */
+    justify-content: flex-start;
+    flex-direction: column;
+   text-align: start;
+    width: 40%;
+    margin-left: 9.5rem;
+}
+.secondSubContainer p{
+  
+    font-size: 30px;
+    font-weight: 400;
+}
+.underline{
+    width: 90%;
+    border: 1px solid black;
+    margin-top: -20px;
+}
+.detailcontainer{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.conatiner{
+    background-color: rgb(217, 251, 138);
+    margin-top: 20px;
+    padding: 10px 15px;
+}
